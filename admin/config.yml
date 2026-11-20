@@ -1,0 +1,157 @@
+backend:
+  name: github
+  repo: gideonps-stack/eyeforit-web
+  branch: main
+
+media_folder: "../pictures"
+public_folder: "/pictures"
+
+collections:
+  - name: "site_settings"
+    label: "Site Settings"
+    label_singular: "Site Setting"
+    editor:
+      preview: false
+    files:
+      - label: "General"
+        name: "general"
+        file: "../content.json"
+        fields:
+          - { label: "Site Name", name: "site.name", widget: "string" }
+          - { label: "Display Phone", name: "site.phone_display", widget: "string" }
+          - { label: "Phone for tel: links (E.164)", name: "site.phone_tel", widget: "string" }
+          - { label: "WhatsApp URL", name: "site.whatsapp", widget: "string" }
+          - { label: "Email", name: "site.email", widget: "string" }
+          - { label: "Address", name: "site.address", widget: "string" }
+          - { label: "Copyright Text", name: "site.copyright", widget: "string" }
+
+  - name: "hero"
+    label: "Hero Section"
+    label_singular: "Hero Section"
+    editor:
+      preview: false
+    files:
+      - label: "Hero Content"
+        name: "hero"
+        file: "../content.json"
+        fields:
+          - { label: "Heading", name: "hero.heading", widget: "string" }
+          - { label: "Subtitle", name: "hero.subtitle", widget: "textarea", rows: 5 }
+          - { label: "Button 1 Text", name: "hero.button1", widget: "string" }
+          - { label: "Button 2 Text", name: "hero.button2", widget: "string" }
+          - { label: "Beta Line (under buttons)", name: "hero.beta_line", widget: "string" }
+
+  - name: "services"
+    label: "Services"
+    label_singular: "Service"
+    editor:
+      preview: false
+    files:
+      - label: "Service Cards"
+        name: "services"
+        file: "../content.json"
+        fields:
+          - { label: "Services", name: "services.list", widget: "list", summary: "={{ item.title }}", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "textarea", rows: 3 }
+            ]}
+
+  - name: "why"
+    label: "Why Choose Us"
+    label_singular: "Reason"
+    editor:
+      preview: false
+    files:
+      - label: "Why Items"
+        name: "why"
+        file: "../content.json"
+        fields:
+          - { label: "Reasons", name: "why.list", widget: "list", summary: "={{ item.title }}", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "textarea", rows: 2 }
+            ]}
+
+  - name: "process"
+    label: "How We Work"
+    label_singular: "Step"
+    editor:
+      preview: false
+    files:
+      - label: "Process Steps"
+        name: "process"
+        file: "../content.json"
+        fields:
+          - { label: "Steps", name: "process.list", widget: "list", summary: "={{ item.title }}", fields: [
+              { label: "Step Number", name: "step", widget: "number", default: 1 },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "textarea", rows: 3 }
+            ]}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    label_singular: "Testimonial"
+    editor:
+      preview: false
+    files:
+      - label: "Customer Reviews"
+        name: "testimonials"
+        file: "../content.json"
+        fields:
+          - { label: "Reviews", name: "testimonials.list", widget: "list", summary: "={{ item.author }}", fields: [
+              { label: "Quote", name: "quote", widget: "textarea", rows: 3 },
+              { label: "Author", name: "author", widget: "string" }
+            ]}
+
+  - name: "blog"
+    label: "Blog / Insights"
+    label_singular: "Blog Post"
+    editor:
+      preview: false
+    files:
+      - label: "Blog Cards"
+        name: "blog"
+        file: "../content.json"
+        fields:
+          - { label: "Blog Posts", name: "blog.list", widget: "list", summary: "={{ item.title }}", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Excerpt", name: "excerpt", widget: "textarea", rows: 2 },
+              { label: "Read More Link", name: "link", widget: "string", default: "#" }
+            ]}
+
+  - name: "contact"
+    label: "Contact Section"
+    label_singular: "Contact"
+    editor:
+      preview: false
+    files:
+      - label: "Contact Content"
+        name: "contact"
+        file: "../content.json"
+        fields:
+          - { label: "Heading", name: "contact.heading", widget: "string" }
+          - { label: "Intro", name: "contact.intro", widget: "textarea", rows: 3 }
+          - { label: "Email", name: "contact.email", widget: "string" }
+          - { label: "Phone (display)", name: "contact.phone_display", widget: "string" }
+          - { label: "Phone for tel: links (E.164)", name: "contact.phone_tel", widget: "string" }
+          - { label: "Google Maps URL", name: "contact.map", widget: "string" }
+
+  - name: "footer"
+    label: "Footer"
+    label_singular: "Footer"
+    editor:
+      preview: false
+    files:
+      - label: "Footer Content"
+        name: "footer"
+        file: "../content.json"
+        fields:
+          - { label: "Brand Intro", name: "footer.brand", widget: "textarea", rows: 2 }
+          - { label: "Services", name: "footer.services", widget: "list", summary: "={{ item.service }}", fields: [
+              { label: "Service", name: "service", widget: "string" }
+            ]}
+          - { label: "Links", name: "footer.links", widget: "list", summary: "={{ item.label }}", fields: [
+              { label: "Link Label", name: "label", widget: "string" },
+              { label: "Link URL", name: "url", widget: "string" }
+            ]}

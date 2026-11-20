@@ -1,0 +1,80 @@
+{
+  "site": {
+    "name": "Eye For IT",
+    "phone_display": "083 630 0749",
+    "phone_tel": "+27836300749",
+    "whatsapp": "https://wa.me/27836300749",
+    "email": "gideon@eyeforit.co.za",
+    "address": "Sandton, Gauteng, South Africa",
+    "copyright": "© 2026 Eye For IT. All rights reserved."
+  },
+  "hero": {
+    "heading": "Expert IT Support & Managed IT Services for Your Business",
+    "subtitle": "Eye For IT keeps your business running — proactively. We provide fast, affordable IT support, managed services, and consulting across Sandton, Fourways, Paulshof, Bryanston, Rivonia, Midrand, and greater Johannesburg & Pretoria.",
+    "button1": "Get a Free IT Audit",
+    "button2": "Explore Services",
+    "beta_line": "Since 2017 · Over 20 years experience"
+  },
+  "services": {
+    "list": [
+      { "icon": "🔧", "title": "IT Support", "description": "Onsite and remote IT support for Johannesburg & Pretoria businesses — fast helpdesk response, and hands-on support when your team needs it most." },
+      { "icon": "⏱️", "title": "IT Support SLA", "description": "Guaranteed response times and resolution targets — no more \"we'll get to it\" uncertainty. Contracted expectations you can plan around." },
+      { "icon": "📋", "title": "IT Audit", "description": "A full review of your IT environment — devices, network, security, backups, and Microsoft 365 — with a written report and fixed quote. No jargon, no upsells." },
+      { "icon": "🛡️", "title": "Managed IT Services", "description": "Proactive monitoring, maintenance, and management of your entire IT environment — reducing downtime, controlling costs, and giving you a single accountable partner." },
+      { "icon": "💻", "title": "Hardware & Software", "description": "IT hardware supply, installation, configuration, and monthly support SLAs — plus software licensing, deployment, and troubleshooting." },
+      { "icon": "🌐", "title": "Business Internet & Network", "description": "Reliable business internet connectivity, network design, setup, and management for offices across Sandton, Fourways, Paulshof, Bryanston, Rivonia, Midrand, and greater Gauteng." }
+    ]
+  },
+  "why": {
+    "list": [
+      { "icon": "📊", "title": "Proactive, not reactive", "description": "We patch, monitor, and fix before they become outages." },
+      { "icon": "💵", "title": "Fixed monthly costs", "description": "Predictable IT spend — no surprise break-fix invoices." },
+      { "icon": "🔒", "title": "Security-first defaults", "description": "MFA, EDR, backup, and email security built in from day one." },
+      { "icon": "👤", "title": "One accountable partner", "description": "No jargon, no upsells — just clear outcomes and a named contact." },
+      { "icon": "⚡", "title": "24/7 support", "description": "Emergency line and after-hours support on our higher tiers." }
+    ]
+  },
+  "process": {
+    "list": [
+      { "step": 1, "title": "Free IT Assessment", "description": "We take the time to understand your business goals, current IT environment, and pain points before designing a solution." },
+      { "step": 2, "title": "Plan & Quote", "description": "Together we map out a clear implementation plan with timelines, milestones, and transparent fixed pricing." },
+      { "step": 3, "title": "Implement", "description": "We execute the plan with clear communication and efficiency — keeping disruption to a minimum." },
+      { "step": 4, "title": "Support & Review", "description": "Ongoing management, monitoring, and monthly reporting to keep your technology aligned with your business." }
+    ]
+  },
+  "testimonials": {
+    "list": [
+      { "quote": "Thanks Eye for IT for outstanding service and support. When I faced a major crisis, they responded quickly, went above and beyond to assist, and did everything possible to resolve the situation as promptly as they could. Very professional, efficient, and willing to help with genuine commitment to their clients! Thank you for your outstanding service.", "author": "A Ras" }
+    ]
+  },
+  "blog": {
+    "list": [
+      { "title": "Load shedding: how to keep your servers and office running", "excerpt": "Practical steps to protect your business from load shedding — UPS, generator, and cloud failover options that keep you online.", "link": "#" },
+      { "title": "Managed vs break-fix: which is right for you?", "excerpt": "Comparing the two models side by side — cost, downtime, risk, and which one gives you peace of mind.", "link": "#" }
+    ]
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "intro": "Ready to improve your IT infrastructure? We'd love to hear about your business and explore how Eye For IT can help. Get a free IT assessment — no obligation.",
+    "email": "gideon@eyeforit.co.za",
+    "phone_display": "083 630 0749",
+    "phone_tel": "+27836300749",
+    "map": "https://www.google.com/maps/search/?api=1&query=Eye+For+IT+Sandton"
+  },
+  "footer": {
+    "brand": "Reliable IT support, managed services, and consulting for businesses across Johannesburg and Pretoria.",
+    "services": [
+      { "service": "IT Consulting" },
+      { "service": "Managed IT Services" },
+      { "service": "IT Support" },
+      { "service": "Network Support" },
+      { "service": "Computer Support" }
+    ],
+    "links": [
+      { "label": "Email", "url": "mailto:gideon@eyeforit.co.za" },
+      { "label": "Phone", "url": "tel:+27836300749" },
+      { "label": "Website", "url": "https://eyeforit.co.za" },
+      { "label": "Contact", "url": "#contact" }
+    ]
+  }
+}

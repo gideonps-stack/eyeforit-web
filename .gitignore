@@ -1,0 +1,22 @@
+# Backup files
+*.bak
+*.bak.*
+*.original
+*.orig
+*~
+.DS_Store
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+
+# Virtual environments
+.venv/
+
+# Backup directories
+Backup/
+
+# OS files
+.DS_Store
+.Trashes
